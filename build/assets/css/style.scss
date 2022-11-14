@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------------------------
+Theme Name: GamFi - Metaverse Web3 IGO/IDO Token Launchpad HTML 5 Template
+Theme URL: #
+Author: uigigs
+Author URL: http://www.uigigs.com/
+version: 1.0.0
+------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------
+CSS table of content
+
+01. Settings style
+02. Base style
+03. Sections style
+04. Components style
+05. Utilities style
+
+------------------------------------------------------------------------------------*/
+
+/*--------------------------------
+01. Settings style
+--------------------------------*/ 
+@import '../scss/settings/settings.colors'; 
+@import '../scss/settings/settings.typography'; 
+@import '../scss/settings/settings.breakpoints';
+
+/*--------------------------------
+02. Base style
+--------------------------------*/
+@import '../scss/helper/reset.all'; 
+@import '../scss/helper/helper.theme';
+
+/*--------------------------------
+03. Sections style
+--------------------------------*/
+/*--- home page style ---*/
+//baner section
+@import '../scss/sections/homePage/banner/sections.banner';
+//about section
+@import '../scss/sections/homePage/about/sections.about';
+//projects section
+@import '../scss/sections/homePage/projects/sections.projects';
+//previous section
+@import '../scss/sections/homePage/previous/sections.previous';
+//tokenomics section
+@import '../scss/sections/homePage/tokenomics/sections.tokenomics';
+//team section
+@import '../scss/sections/homePage/team/sections.team';
+//partners section
+@import '../scss/sections/homePage/partners/sections.partners';
+
+/*--- home two page style ---*/
+@import '../scss/sections/homeTwo/sections.homeTwo';
+
+/*--- home three page style ---*/
+@import '../scss/sections/homeThree/sections.homeThree';
+
+/*--- home four page style ---*/
+@import '../scss/sections/homeFour/sections.homeFour';
+
+/*--- Project page style ---*/
+@import '../scss/sections/projects/sections.projects';
+@import '../scss/sections/projects/sections.calendar';
+@import '../scss/sections/projects/sections.projectDetails';
+
+/*--- IGO Ranking page style ---*/
+@import '../scss/sections/igoRanking/sections.igoRanking';
+
+/*--- Blog page style ---*/
+@import '../scss/sections/blog/sections.blog';
+@import '../scss/sections/blog/sections.blogDetails';
+
+/*--- Stacking page style ---*/
+@import '../scss/sections/stacking/sections.stacking';
+
+/*--- farming page style ---*/
+@import '../scss/sections/farming/sections.farming';
+
+/*--- leaderboard page style ---*/
+@import '../scss/sections/leaderBoard/sections.leaderBoard';
+
+/*--- FAQ page style ---*/
+@import '../scss/sections/faq/sections.faq';
+
+/*--- tier pages style ---*/
+@import '../scss/sections/tier/sections.tier';
+
+/*--- tokenomics pages style ---*/
+@import '../scss/sections/tokenomics/secitons.tokenomics';
+
+/*--- governance page style ---*/
+@import '../scss/sections/governance/sectiona.governance';
+
+/*--- connect wallet pages style ---*/
+@import '../scss/sections/connectWallet/sections.connectWallet';
+
+/*--- kyc pages style ---*/
+@import '../scss/sections/kyc/sections.kyc';
+
+/*--- team details pages style ---*/
+@import '../scss/sections/teamDetails/sections.teamDetails';
+
+/*--- road map pages style ---*/
+@import '../scss/sections/roadmap/sections.roadmap';
+
+/*--- contact page style ---*/
+@import '../scss/sections/contact/sections.contact';
+
+/*--------------------------------
+04. Components style
+--------------------------------*/
+@import '../scss/components/components.preloader';
+@import '../scss/components/components.buttons';
+@import '../scss/components/components.header';
+@import '../scss/components/components.breadcrumb';
+@import '../scss/components/components.sectionTitle';
+@import '../scss/components/components.form';
+@import '../scss/components/components.footer';
+@import '../scss/components/components.modal';
+@import '../scss/components/components.pagination';
+@import '../scss/components/components.progressBar';
+
+/*--------------------------------
+05. Utilities style
+--------------------------------*/
+@import '../scss/utilities/utilities';
